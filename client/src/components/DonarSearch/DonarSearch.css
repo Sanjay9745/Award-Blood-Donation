@@ -1,0 +1,49 @@
+.donar-search-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+}
+.donar-search-body{
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.donar-search-body select{
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color:#000;
+
+    outline: none;
+}
+select::-ms-expand {
+    display: none;
+  }
+.donar-search-body button{
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFC947;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color:#fff;
+    margin-top: 20px;
+}
+.donar-search-body button:hover{
+    transform: scale(.89);
+}

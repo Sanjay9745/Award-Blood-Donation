@@ -1,0 +1,49 @@
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+ 
+ 
+}
+.app {
+  width: 23%;
+  min-height: 100vh;
+  height: 100%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.app .fa-chevron-left{
+  font-size: 2rem;
+  color: #000;
+  cursor: pointer;
+  position: fixed;
+  top: 30px;
+  left: 40%;
+}
+@media (max-width:1366px){
+  .app{
+    width: 30%;
+  }
+}
+@media (max-width:1024px){
+  .app{
+    width: 50%;
+  }
+}
+@media (max-width:767px){
+  .app{
+    width: 100%;
+  }
+  .app .fa-chevron-left{
+    left: 30px;
+  }
+}
