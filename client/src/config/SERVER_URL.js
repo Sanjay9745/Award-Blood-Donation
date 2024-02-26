@@ -1,2 +1,2 @@
-const SERVER_URL = 'http://54.175.6.35:9000/api';
+const SERVER_URL = 'https://blood-donation-u3ja.onrender.com//api';
 export default SERVER_URL;
